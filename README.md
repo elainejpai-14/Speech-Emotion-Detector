@@ -24,8 +24,11 @@ The trained model is available here: https://drive.google.com/file/d/10CJ2bdkjs-
    pip install -r requirements.txt
    ```
 4. Download and unzip the RAVDESS dataset
-5. Run the "Emotion Recognition from Speech.ipynb" colab notebook
-6. Run the Gradio UI
+5. Train the model (Optional if you just want to run inference)
+   ```bash
+   python train_model.py
+   ```
+7. Run the Gradio UI
    ```bash
    python app.py
    ```
@@ -48,3 +51,9 @@ Input: Mel spectrogram (128 Mel bins, 400 time frames)
 | Test Accuracy       | **77.6%**                  |
 | Final Test Loss     | **0.80**                   |
 | Early Stopping      | Triggered after epoch 20 |
+
+## Demo
+Check out the interactive Gradio App here: https://huggingface.co/spaces/elaine14/Speech_Emotion_Recognition, and test the model with your microphone or uploaded audio!
+
+## Notes
+Run the "Emotion Recognition from Speech.ipynb" notebook instead with a T4 GPU on Google Colab for faster and simpler execution. It also provides insightful vizualizations to understand the model's performance.
