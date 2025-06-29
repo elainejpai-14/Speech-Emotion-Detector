@@ -1,0 +1,9 @@
+torch
+torchaudio
+gradio
+librosa
+matplotlib
+seaborn
+numpy
+scikit-learn
+kagglehub
