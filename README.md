@@ -47,9 +47,9 @@ Input: Mel spectrogram (128 Mel bins, 400 time frames)
 
 | Metric              | Value                      |
 | ------------------- | -------------------------- |
-| Validation Accuracy | **\~76.4%**                |
-| Test Accuracy       | **77.6%**                  |
-| Final Test Loss     | **0.80**                   |
+| Validation Accuracy | **\~77.08%**                |
+| Test Accuracy       | **80.32%**                  |
+| Final Test Loss     | **0.63**                   |
 | Early Stopping      | Triggered after epoch 20 |
 
 ## Demo
